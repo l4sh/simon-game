@@ -1,0 +1,50 @@
+body {
+  background-color: #333;
+  background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+  font-family: Orbitron, sans-serif;
+  font-size: 1em;
+  color: #eee;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#simon {
+  margin-top: 50px;
+}
+
+.strict-box {
+  position: absolute;
+  top: 55px;
+  left: calc(50% + 145px);
+  font-weight: bold;
+  width: 50px;
+  height: 35px;
+  background: #222;
+  padding: 10px;
+}
+
+.strict-box label {
+  display: block;
+  width: 40px;
+  height: 30px;
+  color: #666;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked+label {
+  color: #e33;
+  text-shadow: 0 0 1px #a00;
+}
